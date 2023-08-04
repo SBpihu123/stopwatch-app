@@ -1,0 +1,53 @@
+body{
+      /* Styling for the body background and alignment */
+    background-color: rgba(38, 4, 83, 0.911);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+#container{
+      /* Styling for the container div */
+   color: silver; 
+}
+/* Styling for digits and text */
+.digit{
+      /* Styling for digit elements (hours, minutes, seconds, and count) */
+    font-size: 150px;
+    font-weight: bold;
+}
+.text{
+     /* Styling for text elements (hr, min, sec) */
+    font-size: 40px;
+    font-weight: bold;
+}
+/* Styling for button container */
+#btn-container{
+    text-align: center;
+   margin-top: 40px;
+}
+/* Styling for buttons */
+.btn{
+      /* Styling for common button properties */
+    padding: 7px 25px;
+    font-size: 15px;
+    margin: 0px 10px;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
+ /* Styling for the Start button */
+#start{
+    
+    background-color: green;
+}
+  /* Styling for the Stop button */
+#stop{
+    background-color: blue;
+}
+ /* Styling for the Reset button */
+#reset{
+    background-color: red;
+}
+
